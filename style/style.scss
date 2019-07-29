@@ -1,0 +1,114 @@
+@import "reset.scss";
+@import "desktop.scss";
+@import "mobile.scss";
+
+
+$color_1: #ffffff;
+$color_2: #000000;
+$font_family_1: 'Arial';
+$font_family_2: 'Oswald';
+$border_color_1: #000000;
+$border_top_color_1: #cccccc;
+
+body{
+  font-family: $font_family_1;
+}
+
+
+/* Général css for Header */
+
+.nav-link {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+  width: 3% !important;
+}
+
+
+/*Select button*/
+
+
+.filter{
+  display: flex;
+}
+.select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 50%;
+  select {
+    font-family: $font_family-2;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 12px 16px;
+    outline: 0;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    background: #000000;
+    color: $color_1;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    &::-ms-expand {
+      display: none;
+    }
+    &:disabled {
+      opacity: 0.5;
+      pointer-events: none;
+      &~.select_arrow {
+        border-top-color: $border_top_color_1;
+      }
+    }
+  }
+}
+.select_arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  width: 0px;
+  height: 0px;
+  border: solid #7b7b7b;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+/*Board*/
+
+
+.board{
+  display:flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+}
+.card-theme{
+  background-color: rgba(0,0,0,0.78);
+}
+
+
+/* board */
+  /*
+
+  .card{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .col {
+    margin: 0px !important;
+    padding: 0px !important;
+
+  }
+
+
+
+  */
+

@@ -1,0 +1,500 @@
+@charset "UTF-8";
+/*css desktop*/
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@media screen and (min-width: 1200px) {
+  .carousel-title {
+    margin-top: -49px;
+    margin-left: -18px;
+    font-size: 32px; }
+
+  .carousel-indicators li {
+    width: 80px !important;
+    height: 6px !important; }
+
+  .carousel-content {
+    padding: 18px;
+    width: 234px;
+    height: 200px; }
+    .carousel-content h3 {
+      font-size: 20px; }
+    .carousel-content p {
+      font-size: 15px;
+      margin: 0px; }
+
+  .card {
+    width: 300px;
+    max-height: 166px;
+    overflow: hidden;
+    border: none; }
+    .card a {
+      color: white; }
+
+  .card-title-overlay {
+    border-radius: 3px;
+    padding: 4px 10px 4px 10px;
+    position: absolute;
+    top: 119px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.78); }
+    .card-title-overlay p {
+      margin-top: 0;
+      margin-bottom: 0; }
+
+  .card-body {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    color: white;
+    height: 100%; }
+
+  .card:hover .card-body {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.78);
+    transition: 0.4s; }
+
+  .card:hover .card-theme {
+    display: none; }
+
+  .card:hover .card-title-overlay {
+    display: none; }
+
+  .comment-respond input[type="email"] {
+    width: 50%; }
+  .comment-respond input[type="text"] {
+    width: 50%; } }
+/* CSS mobile */
+@media (max-width: 640px) {
+  /* header */
+  .carousel-title {
+    margin-top: -39px;
+    margin-left: -12px;
+    font-size: 31px; }
+
+  .carousel-content {
+    padding: 8px;
+    max-width: 181px;
+    max-height: 100px; }
+    .carousel-content h3 {
+      font-size: 15px; }
+    .carousel-content p {
+      font-size: 10px;
+      margin: 0px; }
+
+  .card {
+    max-width: 302px; }
+    .card a {
+      color: black; }
+    .card a:hover {
+      text-decoration: none;
+      color: black; }
+
+  .card-title-overlay {
+    display: none; } }
+/* CSS tablette */
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  /*header*/
+  .carousel-title {
+    margin-top: -43px;
+    margin-left: -12px;
+    font-size: 31px; }
+
+  .carousel-content {
+    padding: 12px;
+    width: 180px;
+    height: 167px; }
+    .carousel-content h3 {
+      font-size: 20px; }
+    .carousel-content p {
+      font-size: 15px;
+      margin: 0px; }
+
+  /*board*/
+  .card {
+    width: 300px; }
+    .card .card-body a {
+      color: black; }
+    .card .card-body a:hover {
+      color: black;
+      text-decoration: none; }
+    .card .card-body h5:hover {
+      color: black; }
+    .card .card-body .card-theme-mobile li {
+      color: black; }
+
+  .card-title-overlay {
+    display: none; } }
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - style/style.scss
+
+Backtrace:
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:22:in `load'
+/usr/local/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style/style.scss"; }
+
+/*
+Theme Name: Memory_blog
+Theme URI: https://wordpress.org/themes/Memory/
+Author: julien Bonnanfant
+Author URI: https://wordpress.org/
+Description:  Theme pour le blog de Memory Travel&Event
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: memory
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* faire une variable HAUTEUR DE NAV
+Backgrounnd-size : contain;
+remplacer les image par des bg
+/* Background position : center center
+/* Général css for Header */
+body {
+  font-family: "Arial"; }
+
+/*Social Network*/
+[class*="entypo-"]:before {
+  font-family: "entypo", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+a:link {
+  text-decoration: none; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+#sticky-social {
+  left: 0px;
+  position: fixed;
+  top: 150px;
+  z-index: 10;
+  border-radius: 10px; }
+  #sticky-social a {
+    background: #333;
+    color: #fff;
+    display: block;
+    height: 35px;
+    font: 16px "Arial";
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    width: 35px; }
+    #sticky-social a span {
+      line-height: 35px;
+      left: -120px;
+      position: absolute;
+      text-align: center;
+      width: 120px; }
+    #sticky-social a:hover span {
+      left: 100%; }
+    #sticky-social a[class*="entypo-"] {
+      background: #1f1f1f; }
+      #sticky-social a[class*="entypo-"]:hover, #sticky-social a[class*="entypo-"] span {
+        background: #1f1f1f; }
+
+#logo {
+  width: 220px;
+  margin-top: 10px;
+  margin-left: 10px; }
+
+.memory_navbar {
+  background-color: white; }
+  .memory_navbar .callToAction-Memory {
+    background-color: #26C6DA !important;
+    border-radius: 3px;
+    border: 1px solid #26C6DA;
+    color: white !important;
+    font-weight: bold; }
+  .memory_navbar .callToAction-Memory:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #26C6DA;
+    font-weight: bold; }
+
+.carousel-header {
+  margin-top: 55px; }
+  .carousel-header .carousel-content {
+    background-color: rgba(0, 0, 0, 0.78);
+    position: absolute;
+    bottom: 9%;
+    left: 5%;
+    z-index: 20;
+    color: #ffffff;
+    border-radius: 3px; }
+  .carousel-header a {
+    color: white;
+    text-decoration: none; }
+    .carousel-header a :hover {
+      color: white; }
+    .carousel-header a :visited {
+      color: white; }
+
+/*Select button*/
+.filter {
+  display: flex; }
+  .filter .select {
+    position: relative;
+    width: 50%; }
+    .filter .select select {
+      font-family: "Oswald";
+      width: 100%;
+      padding: 10px 1px;
+      outline: 0;
+      border: none;
+      border-radius: 0px;
+      background: #1f1f1f;
+      color: #ffffff;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-align: center;
+      text-align-last: center; }
+  .filter .select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    width: 0px;
+    height: 0px;
+    border: solid #7b7b7b;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); }
+
+/*Board*/
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .board a {
+    text-decoration: none; }
+  .board .card {
+    margin: 10px;
+    overflow: hidden; }
+    .board .card a {
+      text-decoration: none; }
+    .board .card a:hover {
+      color: #f8f9fa;
+      text-decoration: none; }
+    .board .card .card-theme {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      color: white;
+      height: 0;
+      border-top: 100px solid rgba(0, 0, 0, 0.78);
+      border-left: 100px solid transparent; }
+      .board .card .card-theme li {
+        position: absolute;
+        right: 2px;
+        bottom: 49px;
+        transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -khtml-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        list-style-type: none; }
+    .board .card .post-categories a {
+      text-decoration: none; }
+    .board .card .post-categories :visited {
+      color: white; }
+
+footer {
+  background-color: #424242;
+  color: white;
+  padding: 5px; }
+  footer a {
+    color: white; }
+  footer .partenaires {
+    width: 559px;
+    margin: auto;
+    padding: 10px; }
+  footer .carousel-footer img {
+    height: 340px; }
+
+/*
+Commentaires des articles
+ */
+/*
+
+.post-comments{
+  margin-top: 30px;
+  border-radius: 3px;
+  padding: 44px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+  #comments{
+  font-family: $font_family_1;
+  }
+  .commentList{
+   !* background-color: rgba(0, 0, 0, 0.07);*!
+  }
+  .comment-respond{
+    background-color: rgba(0, 0, 0, 0.17);
+    !* margin: -31px; *!
+    padding: 44px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    rest-after: none;
+  }
+*/
+/* ## Comments
+--------------------------------------------- */
+.comment-respond {
+  color: #444;
+  padding: 20px 45px 40px 45px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-left: 4px solid #444;
+  margin: 20px 1px 20px 1px;
+  border-left: none !important; }
+  .comment-respond span {
+    color: #fcce0a; }
+  .comment-respond input {
+    padding: 4px;
+    margin-bottom: 10px; }
+    .comment-respond input[type="submit"] {
+      background-color: #26C6DA !important;
+      border-radius: 3px;
+      border: 1px solid #26C6DA;
+      color: white !important;
+      font-weight: bold; }
+    .comment-respond input[type="submit"]:hover {
+      background-color: #fff !important;
+      color: #000 !important;
+      border: 1px solid #26C6DA;
+      font-weight: bold; }
+  .comment-respond .comment-form-cookies-consent {
+    display: none; }
+  .comment-respond h3 {
+    font-size: 20px;
+    margin-bottom: 30px; }
+  .comment-respond label {
+    display: block;
+    margin-right: 12px;
+    color: #26C6DA; }
+
+.entry-pings {
+  color: #444;
+  padding: 20px 45px 40px 45px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-left: 4px solid #444; }
+  .entry-pings h3 {
+    font-size: 20px;
+    margin-bottom: 30px; }
+  .entry-pings .reply {
+    display: none; }
+
+.entry-comments {
+  color: #444;
+  padding: 20px 45px 40px 45px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-left: 4px solid #444; }
+  .entry-comments h3 {
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .entry-comments .comment-author {
+    margin-bottom: 0;
+    position: relative; }
+    .entry-comments .comment-author img {
+      border-radius: 50%;
+      border: 5px solid #fff;
+      left: -80px;
+      top: -5px;
+      position: absolute;
+      width: 60px; }
+
+.comment-header {
+  color: #adaeb3;
+  font-size: 14px;
+  margin-bottom: 20px; }
+  .comment-header cite a {
+    border: none;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold; }
+  .comment-header .comment-meta a {
+    border: none;
+    color: #adaeb3; }
+
+li.comment {
+  background-color: #fff;
+  border-right: none;
+  margin-bottom: 20px; }
+
+.comment-content {
+  clear: both;
+  overflow: hidden; }
+
+.comment-list li {
+  padding: 20px 30px 20px 50px; }
+  .comment-list li li {
+    background-color: #f5f5f6; }
+    .comment-list li li li {
+      background-color: #fff; }
+.comment-list .children {
+  margin-top: 40px;
+  border: 1px solid #ccc; }
+
+.form-allowed-tags {
+  background-color: #f5f5f5;
+  font-size: 16px;
+  padding: 24px; }
+
+.comment-reply-link {
+  cursor: pointer;
+  background-color: #424242;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 4px 10px 4px;
+  text-transform: uppercase;
+  width: auto; }
+  .comment-reply-link:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.comment-notes {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

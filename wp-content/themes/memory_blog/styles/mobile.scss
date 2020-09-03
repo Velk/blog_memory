@@ -1,0 +1,47 @@
+
+
+/* CSS mobile */
+@media (max-width: 640px) {
+
+  /* header */
+
+  .carousel-title {
+    margin-top: -39px;
+    margin-left: -12px;
+    font-size: 31px;
+  }
+  .carousel-content {
+    padding: 8px;
+    max-width: 181px;
+    max-height: 100px;
+
+    h3 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 10px;
+      margin: 0px;
+    }
+  }
+
+  .card{
+    max-width: 302px;
+
+    a{
+      color:black;
+    }
+    a:hover{
+      text-decoration: none;
+      color:black;
+    }
+
+  }
+
+
+  .card-title-overlay{
+    display: none;
+  }
+
+
+}
+

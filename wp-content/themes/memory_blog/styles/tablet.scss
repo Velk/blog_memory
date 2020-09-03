@@ -1,0 +1,60 @@
+/* CSS tablette */
+
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+
+  /*header*/
+  .carousel-title {
+    margin-top: -43px;
+    margin-left: -12px;
+    font-size: 31px;  }
+  .carousel-content {
+    padding: 12px;
+    width: 180px;
+    height: 167px;
+
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+      margin: 0px;
+    }
+  }
+
+
+  /*board*/
+
+
+  .card {
+    width: 300px;
+
+    .card-body {
+      a {
+        color: black;
+      }
+      a:hover {
+        color: black;
+        text-decoration: none;
+      }
+      h5:hover{
+        color: black;
+
+      }
+      .card-theme-mobile{
+        li{
+          color: black;
+        }
+
+      }
+    }
+  }
+  .card-title-overlay{
+    display: none;
+  }
+
+
+
+}
+
+
+
